@@ -2,5 +2,29 @@
 User-agent: *
 Allow: /
 
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow specific file types
+Allow: /*.html$
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.ico$
+Allow: /*.pdf$
+
+# Crawl delay (optional - be respectful to servers)
+Crawl-delay: 1
+
 # Sitemap location
-Sitemap: https://amanpareek.com/sitemap.xml 
+Sitemap: https://amanpareek.com/sitemap.xml
+
+# Additional sitemaps (if you have them)
+# Sitemap: https://amanpareek.com/sitemap-images.xml
+# Sitemap: https://amanpareek.com/sitemap-projects.xml 
