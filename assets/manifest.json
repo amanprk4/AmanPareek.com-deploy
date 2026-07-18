@@ -1,7 +1,7 @@
 {
-  "name": "Aman Pareek - Frontend Developer Portfolio",
+  "name": "Aman Pareek - Senior Frontend Engineer",
   "short_name": "Aman Pareek",
-  "description": "Personal portfolio website showcasing frontend development projects and professional experience",
+  "description": "Portfolio of a Senior Frontend Engineer specializing in scalable UI architecture, Angular, React, design systems, and web performance",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -111,4 +111,4 @@
   ],
   "related_applications": [],
   "prefer_related_applications": false
-} 
+}
